@@ -15,7 +15,7 @@ window.onscroll = () => {
     let top = window.scrollY;
     let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
-    let id = sec.getgetAttribute("id");
+    let id = sec.getAttribute("id");
 
     if (top >= offset && top < offset + height) {
       navLinks.forEach((links) => {
@@ -56,7 +56,16 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 /*==================== typed js ====================*/
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer.", "SEO Enthusiast.", "Tech Learner."],
+  strings: [
+    "Frontend Developer.",
+    "SEO Enthusiast.",
+    "Tech Learner.",
+    "Junior Web Developer.",
+    "Operator LiveCam.",
+    "Content Designer.",
+    "UI/UX Learner.",
+    "Problem Solver.",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
