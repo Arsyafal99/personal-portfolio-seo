@@ -213,7 +213,7 @@ span {
 .services-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
   flex-wrap: wrap;
   gap: 2rem;
 }
@@ -226,11 +226,23 @@ span {
   text-align: center;
   border: 0.2rem solid var(--bg-color);
   transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+  min-height: 420px;
 }
 
 .services-container .services-box:hover {
   border-color: var(--main-color);
   transform: scale(1.02);
+}
+
+.services-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 420px;
 }
 
 .services-box i {
@@ -245,6 +257,7 @@ span {
 .services-box p {
   font-size: 1.5rem;
   margin: 1rem 0 3rem;
+  flex-grow: 1;
 }
 
 .portfolio {
@@ -419,6 +432,38 @@ span {
     padding-bottom: 7rem;
   }
 
+  .services-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .services-box {
+    flex: 1 1 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+  }
+
+  .services-box p {
+    flex: 1;
+    margin: 1rem 0 2rem;
+    word-wrap: break-word;
+  }
+
+  .services-container .services-box {
+    flex: 1 1 100%;
+    height: auto;
+  }
+
   .portfolio {
     padding-bottom: 7rem;
   }
@@ -469,7 +514,7 @@ span {
   }
 
   .home-content h1 {
-    font-size: 4rem; 
+    font-size: 4rem;
   }
 
   .home-content p {
@@ -482,13 +527,39 @@ span {
   }
 
   .about {
+    display: flex;
     flex-direction: column-reverse;
+    align-items: center;
     text-align: center;
+    justify-content: center;
+    padding: 2rem;
   }
 
   .about img {
     width: 70vw;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .about-content h2 {
+    text-align: center;
+    align-items: center;
+  }
+
+  .about-content h2,
+  .about-content p {
+    text-align: center;
+  }
+
+  .services-container .services-box {
+    min-height: unset;
   }
 
   .services h2,
