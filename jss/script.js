@@ -56,7 +56,7 @@ ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
 ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 /*==================== typed js ====================*/
 const typed = new Typed(".multiple-text", {
-  strings: ["Junior Web Developer.", "Operator LiveCam.", "User Canva."],
+  strings: ["Frontend Developer.", "SEO Enthusiast.", "Tech Learner."],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
