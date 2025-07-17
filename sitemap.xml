@@ -1,3 +1,20 @@
-<url>
-  <loc>https://arsyafal99.github.io/personal-portfolio-seo/index.html</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://arsyafal99.github.io/personal-portfolio-seo/</loc>
+  </url>
+  <url>
+    <loc>https://arsyafal99.github.io/personal-portfolio-seo/about.html</loc>
+  </url>
+  <url>
+    <loc>https://arsyafal99.github.io/personal-portfolio-seo/web.html</loc>
+  </url>
+  <url>
+    <loc>https://arsyafal99.github.io/personal-portfolio-seo/live.html</loc>
+  </url>
+  <url>
+    <loc>https://arsyafal99.github.io/personal-portfolio-seo/Design.html</loc>
+  </url>
+</urlset>
