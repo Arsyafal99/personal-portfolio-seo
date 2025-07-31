@@ -79,7 +79,7 @@ document
     event.preventDefault(); // Mencegah reload halaman
 
     emailjs
-      .send("service_27cicxj", "template_6vwyaqa", {
+      .send("service_5bflj9h", "template_6vwyaqa", {
         fullName: document.getElementById("fullName").value,
         email: document.getElementById("email").value,
         mobileNumber: document.getElementById("mobileNumber").value,
