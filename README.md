@@ -1,6 +1,6 @@
-# Personal Portfolio SEO
+# Personal Portfolio
 
-Selamat datang di proyek **Personal Portfolio SEO**.  
+Selamat datang di proyek **Personal Portfolio**.  
 Website ini adalah portofolio pribadi yang dibangun dengan HTML, CSS, dan JavaScript, serta dioptimalkan untuk SEO (Search Engine Optimization).
 
 ## 🔗 Live Demo
