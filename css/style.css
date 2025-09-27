@@ -271,7 +271,7 @@ span {
   align-items: center;
   gap: 20px; /* jarak antar gambar */
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .certificate .slide img {
@@ -674,7 +674,7 @@ span {
   }
 
   .certificate .slide img {
-    max-width: 90%; /* biar pas di layar hp */
+    max-width: 100%; /* biar pas di layar hp */
   }
 
   .cert-nav {
